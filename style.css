@@ -1,0 +1,91 @@
+body,html{
+    padding:0;
+    margin:0;
+    
+}
+
+
+/*navbar*/
+.nav-link{
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+}
+.navbar-brand{
+    font-family: 'Lobster', cursive;
+    font-size:30px!important;
+}
+.container-fluid{
+    width:1300px !important;
+}
+
+.navbar-collapse{  
+    width:345px!important;
+}
+
+
+
+/* cards */
+
+.cards{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:50px;
+    
+    
+   
+}
+
+.card{
+    
+    margin-top:100px;
+    color:white;
+    width:400px!important;
+    border:none!important;
+    text-align: center;
+}
+
+.card .btn{
+  width:100px;
+  background:none;
+  border:1px solid white;
+  border-radius: 20px;
+}
+
+.cards img{
+    border-radius: 10px;
+}
+
+/* modal */
+.portfolio{
+    color:white;
+    text-align: center;
+}
+
+.modal-body pre{
+    margin-left:-16px!important;
+}
+
+@media (max-width:900px){
+ .portfolio p{
+   text-align:left;
+   font-size:16px;
+   padding-left:10px;
+   
+ }
+}
+
+
+/* form */
+form{
+    margin-bottom:-522px;
+    width:400px;
+    border:1px solid white;
+    margin:auto;
+    padding:20px;
+    border-radius:20px;
+    color:white;
+}
